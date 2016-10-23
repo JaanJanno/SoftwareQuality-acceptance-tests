@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Check submission</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check submission</td></tr>
+</thead><tbody>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Introduction to Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(text(),'Grades')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Exercise 1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View all submissions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Submitted for grading</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Grade</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>This is sparta!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_assignfeedbackcomments_editoreditable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_assignfeedbackcomments_editor</td>
+	<td>&lt;p&gt;G&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_assignfeedbackcomments_editor</td>
+	<td>&lt;p&gt;Go&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_assignfeedbackcomments_editor</td>
+	<td>&lt;p&gt;Goo&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_assignfeedbackcomments_editor</td>
+	<td>&lt;p&gt;Good&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_grade</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=savechanges</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/div/div[2]/div/div[2]/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=exact:Course: Introduction to Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=action-menu-toggle-0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log out</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
